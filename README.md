@@ -2,7 +2,7 @@
 
 ![](images/cjmcu_debugger.jpg)
 
-The Digilent JTag uses FTDI chips, but its configuration EEPROM contains secrete data needed to be recoginzed by Xilinx ISE/Vivado. For patch dongle you will need linux (testen on Ubuntu 20.04), but the patched FTDI doggle also works on Windows. The schematic below is for the Adafruit FT232H debugger. By flashing the EEPROM I marked, we will make Vivado see the CJMCU Debugger as Digilent HS2.
+The Digilent JTAG uses FTDI chips, but its configuration EEPROM contains data needed to be recoginzed by Xilinx ISE/Vivado. For patch dongle you will need GNU Linux, but the patched FT232H doggle also works on Windows. The schematic below is for the Adafruit FT232H debugger. By flashing the EEPROM I marked, we will make Vivado see the CJMCU Debugger as Digilent HS2.
 
 ![](images/components_ft232sch.png)
 
