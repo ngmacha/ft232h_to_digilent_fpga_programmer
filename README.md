@@ -15,6 +15,13 @@ Following command install requirements for Ubuntu:
 vagrant@vagrant:~$ sudo apt-get update && sudo apt-get install libftdi1 ftdi-eeprom -y
 ```
 
+## Clone Repository
+
+```bash
+vagrant@vagrant:~$ git clone https://github.com/erd0spy/ft232h_to_digilent_fpga_programmer/
+vagrant@vagrant:~$ cd ft232h_to_digilent_fpga_programmer/
+```
+
 ## Recognize FT232H debugger:
 
 ```bash
